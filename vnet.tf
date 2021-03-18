@@ -1,5 +1,5 @@
-module "vnet" {
-  source  = "app.terraform.io/mlove-highmetric-training/vnet/azurerm"
-  version = "2.4.0"
+module "network" {
+  source  = "app.terraform.io/mlove-highmetric-training/network/azurerm"
+  version = "3.3.0"
   resource_group_name = "myrezgroup" 
 }
